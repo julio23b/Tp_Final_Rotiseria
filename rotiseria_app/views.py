@@ -33,7 +33,7 @@ class PedidoUpdateView(UpdateView):
     template_name = 'web/Modificar_Pedido.html'
     fields = '__all__'
     def get_success_url(self):
-        return reverse('Pedido_Listado', kwargs={'pk': self.object.pk})
+        return reverse('Visualizar_Pedido')
 
 class PedidoDeleteView(DeleteView):
     model = Pedido
