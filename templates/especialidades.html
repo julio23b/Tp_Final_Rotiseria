@@ -1,0 +1,172 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8ec4b38b31.js" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="{% static '.\media\images\icono-pagina\iconburguer.png' %}"/>
+        <link rel="stylesheet" href="{% static './css/paginas/especialidades.css' %}"/>
+        <link rel="stylesheet" href="{% static './css/style.css' %}"/>
+        <title>Especialidades</title>
+    </head>
+    <body class="contenedor">
+        <header class="head">
+            <section class="item item-1"></section>
+            <section class="item item-2">
+                <a class="box-0" href="{% url 'index' %}">Inicio</a>
+                <a class="box-2" href="{% url 'especialidades' %}">Especialidades</a>
+                <a class="box-4" href="{% url 'contacto' %}">Contacto</a>          
+            </section>
+        </header>
+        <main>
+            <section class="menu-area">
+                <div class="contenedor-menu">
+                    <div class="titulo">
+                        <h1>Nuestras especialidades</h1>
+                    </div>
+                    <div class="comidas">
+
+                        <section class="menu-hamburguesa">
+                            <h2>Hamburguesas</h2>                           
+                            <div class="menu-comidas">   
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/ham completa.jpg" alt="Hamburguesas">   
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Hamburguesa Completa <span>$4000</span></li>
+                                    </ul>
+                                </div>
+                                <button id= "agregar-ham-completa" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/doble chedar.jpg" alt="Hamburguesas">   
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                         <li>Hamburguesa Doble Cheddar <span>$4300</span></li>
+                                    </ul>
+                                </div>
+                                <button id="agregar-ham-cheddar" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/hamburguesa triple-queso-tocino.jpg" alt="Hamburguesas">    
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Hamburguesa Triple <span>$5000</span></li> 
+                                    </ul>
+                                </div>
+                                <button id="agregar-ham-triple" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                        </section>
+
+                        <section class="menu-empanadas">
+                            <h2>Empanadas</h2>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                            <img src="{% static '' %}./media/images/img-especialidades/emp carne.jpg" alt="Empanadas">  
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Empanadas Carne <span>$500</span></li>
+                                    </ul>
+                                </div>
+                                <button id="emp-carne" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/emp pollo.jpg" alt="Empanadas">
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Empanadas Pollo <span>$500</span></li>
+                                    </ul>
+                                </div>
+                                <button id="emp-pollo" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/emp verdura.jpg" alt="Empanadas">    
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Empanadas Verdura <span>$500</span></li>
+                                    </ul>
+                                </div>
+                                <button id="emp-verdura" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                            <img src="{% static '' %}./media/images/img-especialidades/emp jamon y queso.jpg" alt="Empanadas"> 
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Empanadas Jamón y queso <span>$500</span></li> 
+                                    </ul>
+                                </div>
+                                <button id="emp-jamon-queso" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                        </section>
+
+                        <section class="menu-pizza">
+                            <h2>Pizzas</h2>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/Pizza Mozzarella.jpg" alt="Pizza">
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Pizza Mozzarella <span>$2500</span></li>
+                                    </ul>
+                                </div>
+                                <button id="pizza-moza" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/pizza napolitana.jpg" alt="Pizza">
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Pizza Napolitana <span>$3000</span></li>
+                                    </ul>
+                                </div>
+                                <button id="pizza-napo" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+                            <div class="menu-comidas">                            
+                                <div class="img-comidas">
+                                        <img src="{% static '' %}./media/images/img-especialidades/pizza peperoni.jpg" alt="Pizza"> 
+                                </div>
+                                <div class="lista-comidas">
+                                    <ul>
+                                        <li>Pizza Peperoni <span>$3500</span></li> 
+                                    </ul>
+                                </div>
+                                <button id="pizza-peperoni" class="agregar-al-carrito">Agregar al carrito</button>
+                            </div>
+
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="foot">
+            <h1 class="Nov">Nuestras Redes:</h1>
+            <section class="footer">
+                <a class="icon-1" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a class="icon-2" href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="icon-3" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a class="icon-4" href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>        
+            </section>
+        </footer>
+    </body>
+
+</html>

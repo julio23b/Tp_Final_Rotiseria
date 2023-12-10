@@ -1,0 +1,84 @@
+/* Reset general y box-sizing */
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grid */
+.contenedor {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Header */
+.head {
+    height: 10vh; 
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.head section a {
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 10px; 
+    color: white;
+    margin: 15px;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-decoration: none;
+    box-shadow: 1px 1px white;
+    opacity: 0.9;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.head section a:hover {
+    opacity: 0.8;
+    color: black;
+    border-color: white;
+    background-color: white;
+}
+
+/* Main */
+.Principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* Footer */
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    border: 2px solid white;
+    border-radius: 10px; 
+    opacity: 0.9;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.foot:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+
+.Nov {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+
+

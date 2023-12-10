@@ -1,0 +1,19 @@
+{% extends "web/base.html" %}
+
+{% load static %}
+
+{% block title %}Borrar Pedido{% endblock %}
+{% block mas_css %}
+    <link rel="stylesheet" href="{% static 'css/Borrar_Pedido.css' %}">
+{% endblock %}
+{% block main %}
+    <div class="bloque_borrar">
+        <h1>Borrar Pedido:</h1>
+        <form method="post">
+            {% csrf_token %}
+            <p> <strong>Estás seguro de querer borrar:</strong> "{{ object }}"</p>
+            {{ form}}
+            <input type="submit" value="confirmar">
+        </form>
+    </div>
+{% endblock %}

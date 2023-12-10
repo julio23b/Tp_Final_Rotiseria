@@ -1,0 +1,18 @@
+{% extends "web/base.html" %}
+
+{% load static %}
+
+{% block title %}Realizar Pedido{% endblock %}
+{% block mas_css %}
+    <link rel="stylesheet" href="{% static 'css/Realizar_Pedido.css' %}">
+{% endblock %}
+{% block main %}
+<div class="first-1">
+    <h1>Complete su Pedido</h1>
+    <form method="POST" action="{% url 'Realizar_Pedido' %}">
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="Enviar Pedido">
+    </form>
+</div>
+{% endblock %}

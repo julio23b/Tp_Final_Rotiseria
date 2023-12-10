@@ -1,0 +1,285 @@
+@media (50px <= width < 480px){
+    .contenedor{
+        height: 200svh;
+        min-width: 400px;
+        max-width: 480px;
+        box-sizing:border-box;
+        background-color: black;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 1rem;
+        grid-template-areas: 
+            "a"
+            "b"
+            "c";
+    }
+    .head{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1rem;
+        grid-template-areas: 
+            "e"
+            "f";
+    }
+    .item-1{
+        grid-area: "e";
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-image: url(../../media/images/logo-gif/logo.gif);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    .item-2{
+        grid-area: "f";
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+@media (481px <= width <= 768px){
+    .contenedor{
+        height: 180svh;
+        min-width: 481px;
+        max-width: 768px;
+        box-sizing:border-box;
+        background-color: black;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 2rem;
+        grid-template-areas: 
+            "a"
+            "b"
+            "c";
+    }
+    .head{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1rem;
+        grid-template-areas: 
+            "e"
+            "f";
+    }
+    .item-1{
+        grid-area: "e";
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        background-image: url(../../media/images/logo-gif/logo.gif);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    .item-2{
+        grid-area: "f";
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+}
+@media (min-width: 769px){
+    .contenedor{
+        height: 100svh;
+        width: 100svw;
+        display: grid;
+        box-sizing:border-box;
+        background-color: black;
+
+    }
+    
+    .head{
+
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+        grid-template-areas: "Logo Select";
+        margin: 10px;
+    }
+    
+    .Principal{
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+    }
+    
+    .foot{
+
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr;
+    }
+    
+    .item-1{
+        grid-area: Logo;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        row-gap:initial;
+        column-gap:inherit;
+        background-image: url(../../media/images/logo-gif/logo.gif);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    
+    .item-2{
+        grid-area: Select;
+        display: flex;
+        align-self:center;
+        justify-content:space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap:inherit;
+        column-gap: inherit;
+        opacity: 0.9;
+        text-align: center;
+
+    }
+    
+}
+@media (min-width: 1000px){
+    .contenedor{
+        height: 100svh;
+        width: 100svw;
+        display: grid;
+        box-sizing:border-box;
+        background-color: black;
+
+    }
+    
+    .head{
+
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        grid-template-areas: "Logo Select";
+        margin: 10px;
+    }
+    
+    .Principal{
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+    }
+    
+    .foot{
+
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr;
+    }
+    
+    .item-1{
+        grid-area: Logo;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        row-gap:initial;
+        column-gap:inherit;
+        background-image: url(../../media/images/logo-gif/logo.gif);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    
+    .item-2{
+        grid-area: Select;
+        display: flex;
+        align-self:center;
+        justify-content:space-evenly;
+        flex-direction: column;
+        flex-wrap: wrap;
+        opacity: 0.9;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .contenedor{
+        height: 100svh;
+        width: 100svw;
+        display: grid;
+        box-sizing:border-box;
+        background-image: url(../../media/images/fondo-pagina/fondo_pantalla.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    
+    .head{
+        height: 30svh;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        grid-template-columns: 15% 85%;
+        grid-template-rows: 1fr;
+        grid-template-areas: "Logo Select";
+    }
+    
+    .Principal{
+        height: 50svh;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+    }
+    
+    .foot{
+
+        display: grid;
+        grid-template-columns: 20% 80%;
+        grid-template-rows: 1fr;
+    }
+    
+    .item-1{
+        grid-area: Logo;
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        row-gap:initial;
+        column-gap:inherit;
+        background-image: url(../../media/images/logo-gif/logo.gif);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    
+    .item-2{
+        grid-area: Select;
+        display: flex;
+        align-self:center;
+        justify-content:space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        opacity: 0.9;
+        text-align: center;
+
+    }
+
+}

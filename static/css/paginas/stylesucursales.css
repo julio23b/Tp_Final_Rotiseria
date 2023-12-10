@@ -1,0 +1,156 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+     .container {display: grid;
+                grid-template-areas:
+                     "header header"
+                     "sidebar content"
+                     "footer footer";
+                grid-template-columns: 1fr 3fr;}
+                
+    
+    /*main elements of the page*/
+    
+    
+    body {
+         background-image: url(../../media/images/hamburguer.jpg);
+         background-size:cover;
+         width: 100%;
+         }
+    
+    header {grid-area: header;
+            width: auto;
+            height: 300px;
+            }
+    
+    aside {grid-area: sidebar;
+            float: left;
+            height: auto;
+            width: 400px;
+            margin-left: 100px;}
+    
+    section {grid-area: content}
+    
+    
+    footer {grid-area: footer}
+    
+    aside section {display: inline-block;
+                    }
+    
+    
+    
+    
+    /*header*/
+    
+    h1 {font-size: 60px}
+    
+    .spanh1 {font-weight: bolder;}
+    
+    
+    .ptitle{font-size: 20px;}
+    .ptitle2 {font-family: Garamond;}
+    .ptitle3 {font-size: 15px;
+            font-weight: bold;}
+    
+    .containerheader {text-align: center;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    background-image: url(/assets/media/images/fondoblanco.png);}
+    
+    .title { font-size: larger;}
+    
+    .refimagecontainer {margin-top: 20px;
+                    }
+    
+    
+    .refimage {display: inline-block;
+                margin: 15px;}
+    
+    .refimagetacc{margin: 2px;}
+    
+    .image {height: 60px;
+            width: 60px;}
+    
+    
+    /******aside******/
+    
+    
+    .containeraside {text-align: center;
+                    margin-top: 60px;
+                    position: fixed;
+                    }
+    
+    a {
+        display:block;
+        padding:1px;
+        margin:2px;
+        text-align: left;
+        text-decoration:none;
+        border-top:1px solid black;
+        width:300px;
+        height:auto;
+       }
+    
+    
+     li {list-style: none;
+        font-size:20px;
+        font-weight: 900;
+        }
+    
+    .itemtitle {font-family: Garamond;
+            vertical-align: center;}
+    .itemimage {height: 10px;
+                width: 10px;}
+    
+    
+    
+    
+    /*section-content*/
+    
+    .maincontainergroups {margin-bottom: 60px;}
+    .containergroups {width: 701px;}
+    h2      {text-align: center;
+             font-size: 40px;}
+    .group1 {margin-left: 615px}
+    .group2 {margin-left: 615px;}
+    
+    .caba1, .caba2 {display: block;
+                    margin-bottom: 20px;
+                    background-image: url(/assets/media/images/fondoblanco.png);
+                    width: 700px;}
+    
+    .containersucu1 {display: inline-block;}
+    
+    .sucu1 {text-align: center;
+            margin: 15px;
+            }
+    
+    .textgroups {background-image: url(/assets/media/images/fondoblanco2.png);
+                    border-radius: 15px;
+            display: inline-block;} 
+    
+    h3 {font-size: 30px;
+            /*font-family: Garamond;*/
+            padding-top: 4px;}
+    
+            .pgroups {font-weight: bold;
+                    font-family: Garamond;}
+    
+    .refimagetiny {margin-top: 4px;
+                    margin-bottom: 4px;}
+    
+    .imagetiny {height: 30px;
+                width: 30px;}
+    
+    iframe {border-radius: 15px;}
+    
+    /*footer*/
+    
+    footer {background-image: url(/assets/media/images/fondoblanco.png);
+            height: 40px;}
+
+

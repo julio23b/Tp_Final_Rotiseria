@@ -1,0 +1,25 @@
+{% extends "web/base.html" %}
+
+{% load static %}
+
+{% block title %}Rotisería{% endblock %}
+{% block mas_css %}
+    <link rel="stylesheet" href="{% static 'css/index_crud.css' %}">
+{% endblock %}
+{% block main %}
+<div class="first first-1">
+    <h1>Descripción</h1>
+    <p>Somos una empresa familiar que busca la excelencia en los productos que ofrece a sus clientes. Nuestra satisfacción es verte disfrutar cada uno de nuestros platos.</p>
+    <p>Ponemos a disposición de nuestros clientes una variedad de productos y precios a la medida de cada consumidor.</p>
+    <p>Nuestra propuesta culinaria incluye:</p>
+    <ul>
+        <li>Hamburguesas</li>
+        <li>Pizzas</li>
+        <li>Empanadas</li>
+        <li>Parrillada</li>
+    </ul>    
+    <p>Además queremos contarte que tenemos una sección "Hazlo tu mismo" donde ofrecemos un variado recetarios con aquellas comidas rápidas que más te gustan, brindando a nuestros</p>
+    <p>clientes la posibilidad de preparar en el hogar platos, salsas, sandwitches de las mas afamadas casas de comidas rápidas. Para esto, ofrecemos los videos con la receta y procedimiento</p>
+    <p> de preparación de comidas rápidas de la mano de reconocidos influencers colinarios.</p>
+</div>
+{% endblock %}

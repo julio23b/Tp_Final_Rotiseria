@@ -1,0 +1,91 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8ec4b38b31.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="{% static '.\media\images\icono-pagina\iconburguer.png' %}"/>
+    <link rel="stylesheet" href=" {% static './css/style.css' %} "/>
+    <link rel="stylesheet" href="{% static './css/paginas/contacto.css' %}"/>
+    <title>Queremos Conocerte</title>
+</head>
+<body class="contenedor">
+    <header class="head">
+        <section class="item item-1"></section>
+        <section class="item item-2">
+            <a class="box-0" href="{% url 'index' %}">Inicio</a>
+            <a class="box-2" href="{% url 'especialidades' %}">Especialidades</a>
+            <a class="box-4" href="{% url 'contacto' %}">Contacto</a>           
+        </section>
+    </header>
+    <main>
+        <section class="contact_form"> 
+
+            <div class="formulario">			
+                <h2>Escríbenos y en breve nos pondremos en contacto contigo</h2>
+                <form id="form" class="form" action="https://sheet.best/api/sheets/dcb57438-7383-4ef8-b2e4-1becc6301f12" method="POST">
+			
+                    <div class="form-control">
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombre</label>
+                            <input type="text" name="introducir_nombre" id="nombre"  placeholder="Escribe tu nombre">
+                            <small>Error massage</small>
+                        </p>
+                    </div>
+
+                    <div class="form-control">
+                        <p>
+                            <label for="email" class="colocar_email">Email</label>
+                            <input type="email" name="introducir_email" id="email"  placeholder="Escribe tu Email">
+                            <small>Error massage</small>
+                        </p> 
+                    </div>  
+
+                    <div class="form-control">
+                        <p>
+                            <label for="telefone" class="colocar_telefono">Teléfono</label>
+                            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                            <small>Error massage</small>
+                        </p> 
+                    </div>   
+		
+                    <div class="form-control">
+                       <p>
+                            <label for="asunto" class="colocar_asunto">Asunto</label>
+                            <input type="text" name="introducir_asunto" id="asunto"  placeholder="Escribe un asunto">
+                            <small>Error massage</small>
+                        </p> 
+                    </div>   
+                    		
+                    <div class="form-control">
+                        <p>
+                            <label for="mensaje" class="colocar_mensaje">Mensaje</label>                     
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"  placeholder="Deja tu comentario"></textarea>
+                            <small>Error massage</small> 
+                        </p>
+                    </div>    
+                    	  								    
+                    <button>Enviar</button>
+                </action=>
+            </div>  
+        </section>
+
+    </main>
+
+    <footer class="foot">
+        <h1 class="Nov">Nuestras Resdes:</h1>
+        <section class="footer">
+            <a class="icon-1" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a class="icon-2" href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="icon-3" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="icon-4" href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>        
+        </section>
+    </footer>
+
+</body>
+<script src="{% static 'js\val__form.js' %}" type="module"></script>	
+<script src="{% static 'js\index.js' %}" type="module"></script>
+</html>
+

@@ -1,0 +1,35 @@
+
+.first {
+    height: auto; 
+    align-items: center;
+    opacity: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(0, 113, 154);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+div h1 {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+div p {
+    color: black;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 1rem; 
+}
+
+div ul {
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: normal;
+    font-size: 1.2rem; 
+}
+
+

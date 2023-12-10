@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <script src="https://kit.fontawesome.com/8ec4b38b31.js" crossorigin="anonymous"></script>
+    {% block mas_css %}{% endblock %}
+</head>
+<body class="contenedor">
+    <header class="head">
+        <section class="item item-2">
+                    <a class="box-3" href="{% url 'index_crud' %}">Inicio</a>
+                    <a class="box-1" href="{% url 'Realizar_Pedido' %}">Realizar Pedido</a>
+                    <a class="box-4" href="{% url 'Visualizar_Pedido' %}">Visualizar Pedidos</a>
+        <section>
+    </header>
+    <main class="Principal">
+        {% block main %}{% endblock %}
+    </main>
+    <footer class="foot">
+        <h1 class="Nov">Todos los derechos reservados 2023</h1>
+    </footer>
+
+</body>
+</html>

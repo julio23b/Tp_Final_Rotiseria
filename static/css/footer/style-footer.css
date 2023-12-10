@@ -1,0 +1,82 @@
+.footer{
+    display: flex;
+    align-self:center;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap:inherit;
+    column-gap: inherit;
+}
+.foot{
+    padding: 10px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    opacity: 0.9;
+}
+
+.Nov{
+    display: flex;
+    align-self:center;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap:inherit;
+    column-gap: inherit;
+}
+
+.foot:hover{
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+}
+
+.footer:hover{
+
+    color: white;
+}
+
+.foot:hover .icon-1{
+
+    color:blue;
+    
+}
+
+.foot:hover .icon-2{
+
+    color:blue;
+    
+}
+
+.foot:hover .icon-3{
+
+    color:blue;
+    
+}
+
+.foot:hover .icon-4{
+
+    color:blue;
+    
+}
+
+.icon-1{
+    font-size: 50px;
+    color: transparent;
+}
+.icon-2{
+    font-size: 50px;
+    color: transparent;
+}
+.icon-3{
+    font-size: 50px;
+    color: transparent;
+}
+.icon-4{
+    font-size: 50px;
+    color: transparent;
+}

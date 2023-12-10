@@ -1,0 +1,40 @@
+
+.lista{
+    display: flex;
+    color: white;
+}
+.bloque{
+    font-size: 1.5rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.bloque ul li{
+    list-style: none;
+}
+
+.bloque a {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: #333; 
+    background-color: #ddd; 
+    border: 1px solid #666; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.bloque a:hover {
+    background-color: #666; 
+    color: #fff; 
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}

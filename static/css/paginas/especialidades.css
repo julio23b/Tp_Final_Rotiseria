@@ -1,0 +1,112 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.menu-area {
+    padding: 100px 0;
+}
+
+.titulo h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: whitesmoke;
+}
+.comidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu-comidas {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    flex-basis: calc(28% - 20px); 
+    margin-right: 20px;
+    box-shadow: 0 4px 15px rgb(255, 255, 255);
+}
+
+
+.img-comidas {
+    position: relative;
+    display: flex;
+
+}
+.img-comidas img{
+
+    width: 300px;
+    height: 250px;
+}
+
+.comidas h2{
+
+    color: white;
+    font-size: 28px;
+    text-align:center;
+    margin-left: -20px;
+
+}
+
+.lista-comidas {
+    padding: 15px;
+    list-style: none;
+}
+.lista-comidas li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-comidas button{
+    background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%; 
+}
+.agregar-al-carrito:hover{
+    border: 3px solid #0dff00;
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1170px) 
+{
+    .contenedor {
+        width: 970px;
+    }   
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) 
+{
+    .contenedor {
+        width: 750px;
+    }
+    .menu-comidas {
+        flex-basis: 49%;
+    }
+
+}
+@media only screen and (max-width:767px) {
+    .contenedor {
+        width: 100%;
+    }
+    .menu-comidas {
+        flex-basis: 100%;
+    }
+
+}
+    

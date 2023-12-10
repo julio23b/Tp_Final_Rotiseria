@@ -1,0 +1,64 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8ec4b38b31.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="{% static 'media/images/icono-pagina/iconburguer.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/animation/aside_style.css' %}"/>
+    <title>Rotisería los ComeNunca</title>
+</head>
+<body class="contenedor">
+    
+    <header class="head">
+        <section class="item item-1"></section>
+        <section class="item item-2">
+            <a class="box-0" href="{% url 'index' %}">Inicio</a>
+            <a class="box-2" href="{% url 'especialidades' %}">Especialidades</a>
+            <a class="box-4" href="{% url 'contacto' %}">Contacto</a>          
+        </section>
+    </header>
+
+    <main class="Principal">
+        <div class="first first-1">
+            <h1>Descripción</h1>
+            <p>Somos una empresa familiar que busca la excelencia en los productos que ofrece a sus clientes. Nuestra satisfacción es verte disfrutar cada uno de nuestros platos.</p>
+            <p>Ponemos a disposición de nuestros clientes una variedad de productos y precios a la medida de cada consumidor.</p>
+            <p>Nuestra propuesta culinaria incluye:</p>
+            <ul>
+                <li>Hamburguesas</li>
+                <li>Pizzas</li>
+                <li>Empanadas</li>
+                <li>Parrillada</li>
+            </ul>    
+            <p>Además queremos contarte que tenemos una sección "Hazlo tu mismo" donde ofrecemos un variado recetarios con aquellas comidas rápidas que más te gustan, brindando a nuestros clientes la posibilidad de preparar en el hogar platos, salsas, sandwitches de las mas afamadas casas de comidas rápidas. Para esto, ofrecemos los videos con la receta y procedimiento de preparación de comidas rápidas de la mano de reconocidos influencers colinarios.</p>
+        </div>
+        <aside class="first first-2">
+            <h1>Recomendados</h1>
+            <section class="block__animation">
+                <div class="container__animation__main">
+                    <li>
+                        <a href=""><img src="{% static './media/images/img-slider/empanadasf.jpg' %}"></a></li>
+                        <a href=""><img src="{% static './media/images/img-slider/hamburguesa-grande-papas-fritas.jpg' %}"></a></li>
+                        <a href=""><img src="{% static './media/images/img-slider/pizzaf.jpg' %}"></a></li>
+                    </li>
+                </div>
+            </section>
+        </aside>
+    </main>
+
+    <footer class="foot">
+        <h1 class="Nov">Nuestras Redes:</h1>
+        <section class="footer">
+            <a class="icon-1" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a class="icon-2" href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="icon-3" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="icon-4" href="https://www.tiktok.com/es/"><i class="fa-brands fa-tiktok"></i></a>        
+        </section>
+    </footer>
+        
+</body>
+</html>

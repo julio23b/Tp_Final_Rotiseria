@@ -1,0 +1,32 @@
+/* style__animation */
+.block__animation {
+    display: flex;
+    height: 50vh;
+}
+
+.container__animation__main {
+    display: block;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.container__animation__main li {
+    list-style: none;
+    animation: cambio 16s infinite linear; 
+}
+
+.container__animation__main a img {
+    width: 50%;
+    height: 50%;
+}
+
+@keyframes cambio {
+    0% {margin-top: 0%};
+    12.5% {margin-top: 33%};
+    25% {margin-top: 53%};
+    62.5% {margin-top: 73%};
+    75% {margin-top: 93%};
+    100% {margin-top: 100%};
+}
+
+

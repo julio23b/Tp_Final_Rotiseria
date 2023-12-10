@@ -1,0 +1,12 @@
+/* Estilos de las estructuras de pagina */
+@import url(header/style-header.css);
+@import url(main/style-main.css);
+@import url(footer/style-footer.css);
+@import url(grid/style-grid.css);
+@import url(queries/style-queries.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
