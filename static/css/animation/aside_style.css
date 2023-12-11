@@ -1,7 +1,7 @@
 /* style__animation */
 .block__animation {
     display: flex;
-    height: 45vh;
+    height: 50%; 
 }
 
 .container__animation__main {
@@ -21,12 +21,13 @@
 }
 
 @keyframes cambio {
-    0% {margin-top: 0%};
-    12.5% {margin-top: 33%};
-    25% {margin-top: 53%};
-    62.5% {margin-top: 73%};
-    75% {margin-top: 93%};
-    100% {margin-top: 100%};
+    0% { margin-top: 0%; }
+    12.5% { margin-top: 16.5%; } 
+    25% { margin-top: 26.5%; } 
+    62.5% { margin-top: 36.5%; } 
+    75% { margin-top: 46.5%; } 
+    100% { margin-top: 50%; } 
 }
+
 
 
