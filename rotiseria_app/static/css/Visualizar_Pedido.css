@@ -1,9 +1,10 @@
 
 .lista{
-    flex-direction: column;
+    display: flex;
     color: white;
 }
 .bloque{
+    flex-direction: column;
     font-size: 1.5rem;
     color: white;
     border: 2px solid white;
