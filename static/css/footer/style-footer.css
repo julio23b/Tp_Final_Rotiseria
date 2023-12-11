@@ -63,6 +63,11 @@
     color:blue;
     
 }
+.foot:hover .icon-5{
+
+    color:blue;
+    
+}
 
 .icon-1{
     font-size: 50px;
@@ -80,23 +85,8 @@
     font-size: 50px;
     color: transparent;
 }
-
-.crud {
-    display: inline-block; 
-    margin: 10px; 
+.icon-5{
+    font-size: 50px;
+    color: transparent;
 }
 
-.crud a {
-    display: block; 
-    padding: 10px; 
-    text-decoration: none; 
-    background-color: #3498db; 
-    color: #fff;
-    border-radius: 5px; 
-    text-align: center; 
-    transition: background-color 0.3s ease; 
-}
-
-.crud a:hover {
-    background-color: #2980b9;
-}
