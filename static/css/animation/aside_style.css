@@ -15,7 +15,7 @@
     animation: cambio 8s infinite alternate;
 }
 
-.container__animation__main a img {
+.container__animation__main img {
     width: 100%;
     height: 100%;
 }
