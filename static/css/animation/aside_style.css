@@ -1,7 +1,7 @@
 /* style__animation */
 .block__animation {
     display: flex;
-    height: 50%; 
+    height: 50vh;
 }
 
 .container__animation__main {
@@ -12,21 +12,21 @@
 
 .container__animation__main li {
     list-style: none;
-    animation: cambio 8s infinite alternate;
+    animation: cambio 8s infinite linear; 
 }
 
 .container__animation__main img {
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 250px;
 }
 
 @keyframes cambio {
-    0% { margin-top: 0%; }
-    12.5% { margin-top: 16.5%; } 
-    25% { margin-top: 26.5%; } 
-    62.5% { margin-top: 36.5%; } 
-    75% { margin-top: 46.5%; } 
-    100% { margin-top: 50%; } 
+    0%  {margin-top: 0% ; }
+    12.5% { margin-top: -33% ; }
+    25% { margin-top: -53% ; }
+    62.5% { margin-top: -73% ; }
+    75% { margin-top: -93% ; }
+    100% { margin-top: -100% ; }
 }
 
 
