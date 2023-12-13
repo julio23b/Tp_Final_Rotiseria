@@ -15,7 +15,7 @@
 
 El proyecto se ha desplegado en pythonanywhere, lo que garantiza una disponibilidad constante y acceso fácil a los usuarios.
 
-# Importante
+## Importante
 
 ⚠️ **¡Alerta importante!**
 
