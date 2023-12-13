@@ -15,6 +15,12 @@
 
 El proyecto se ha desplegado en pythonanywhere, lo que garantiza una disponibilidad constante y acceso fácil a los usuarios.
 
+# Importante
+
+⚠️ **¡Alerta importante!**
+
+Por favor, ten en cuenta que el enlace a la página web está actualmente ubicado en PythonAnywhere. Asegúrate de visitar [este enlace](https://juliob14.pythonanywhere.com/) para acceder a la página.
+
 Consulta la documentación completa en formato PDF para obtener información detallada sobre "Rotisería Los ComeNunca".
 
 [Descargar Documentación PDF](https://drive.google.com/file/d/1RnTNNqxasOwncKgzfxTa1DsrNocQLuoo/view?usp=drive_link)
